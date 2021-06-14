@@ -32,7 +32,9 @@ function bookingComplete(){
         alert("Please enter a valid date");
 
     }
-    alert("Thank-you", name," for booking at LightningPhysio");
+    if((emailBool== true) && (numberBool== true) && (dateBool== true)){
+        alert("Thank-you for booking at LightningPhysio");
+    }
 
     
    
@@ -70,7 +72,7 @@ function numberValidator(number){
 
                     // advise user not proper format "Please enter a valid phone number"
                 }
-                if(x== info.length){
+                if(x== ((info.length)-1)){
                     return (true);
 
                 }
@@ -88,7 +90,7 @@ function dateFormatValidator(date){
     let b=true;
     if( ( (info.charAt(2)) && (info.charAt(5))) != '/'){
         // advise user not proper format "Please enter a valid date"
-        console.log("2,5 issue", info.charAt(x))
+       // console.log("2,5 issue", info.charAt(x))
         b=false;
 
 
@@ -100,7 +102,7 @@ function dateFormatValidator(date){
             }
             else{
                 if(!((info.charAt(x))<13)){
-                    console.log("<13 issue", info.charAt(x))
+                    //console.log("<13 issue", info.charAt(x))
                     b= false;
 
                     // advise user not proper format "Please enter a valid date"
