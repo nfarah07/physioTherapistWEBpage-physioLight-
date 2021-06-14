@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>LightningPhysio</title>
+    
+</head>
+<body>
+    <script src="runner.js"></script>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container">
+            <!--Too give some space in th nav so it look like it's inside-->
+            <p class="navbar-brand"id=zero >LightningPhysio</p>
+            <div class="collapse navbar-collapse">
+                <!--For futur "login" purposes-->
+            </div>
+
+        </div>
+    </nav>
+    <!--End-NavBar-->
+
+    <!--Showcase-->
+    <section class="d-sm-flex bg-blue text-black p5 text-center">
+        <!--Use container so that the text alligns with "LightningPhysio"-->
+        <div class="container">
+            <div class="d-sm-flex">
+                <!--small screens splits it into many ro-->
+                
+                <div>
+                    <h3 class="about d-m-flex" id=about>About</h3>
+                    <!--ContentAboveImage-->
+                    <br>
+                    <g>
+                    
+                        Get your pain diagnosed and treated by some of the best (vetted & highly-rated) Physiotherapists in Canada.
+                        Our physiotherapists will ask you questions to assess your injury, understand your levels of pain
+                        and show you how to perform the exercises that will help you recover.
+                    </g>
+                    
+                </div>
+                <!--ImageBackground-->
+                <!--class= "img-fluid w-50"-->
+
+                <!--so that the image is bound into the contaner use class="img-fluid w-50 half the size"-->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--End-Showcase--> 
+
+    <!--Experts-->
+    <div  class="container">
+        <br>
+        <p class="Practitioner">Meet your Practitioner</p>
+    </div>
+    <div class="d-m-flex">
+        <section class="boxes p-5">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <!--On mobile screens stack so add "-md" adds the collumns for medium screen and up-->
+                    <div class="col-md" id="expert1">
+                        <!--EXPERT1-->
+                        <div class="card bg-light">
+                            <div class="card-body text-center" id=zero>
+                                <div class="sp1-image-wrapper">
+                                    <img src="img/p1.jpeg" alt="error">
+                                </div>
+                                <p class="specialist-name">Dr. Layla Hadid</p>
+                                <p class="specialist-info">
+                                    Dr. Layla Hadid is a highly skilled registered physiotherapist with more than 10 years of experience 
+                                    and is passionate about preventive health care guidance and techniques.
+                                    She offers a variety of in-house services, including physical examinations, and vaccinations screenings. 
+                                    Take advantage of the many benefits preventive health services layla regularly provides</p>
+    
+                            
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                    <div class="col-md">
+                        <!--EXPERT2-->
+                        <div class="card bg-light">
+                            <div class="card-body text-center" id=zero>
+                                <div class="sp1-image-wrapper">
+                                    <img src="img/p2.jpeg" alt="error">
+                                </div>
+                                <p class="specialist-name">Dr. Smith Rogers</p>
+                                <p class="specialist-info">
+                                    Registered Physiotherapist
+                                    Manual Therapist
+                                    Contemporary Medical Acupuncture
+                                    Special Interest in Hand & Wrist Pain
+                                    And <span id="black">Custom knee brace</span>.
+                                </p>
+    
+                            
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="col-md">
+                        <!--EXPERT3-->
+    
+                        <div class="card bg-light">
+                            <div class="card-body text-center" id=zero>
+                                <div class="sp1-image-wrapper">
+                                    <img src="img/p3.jpeg" alt="error">
+                                </div>
+                                <p class="specialist-name">Dr. Halo Harris</p>
+                                <p class="specialist-info">
+                                    Dr. Halo harris is a graduate of University of Yale with a Physical Health and Education Degree. 
+                                    From there, he attained his Doctor of Chiropractic from the Yale Chiropractic College. 
+                                    As a Chiropractor, Dr. Halo Harris has a wide and varied knowledge of therapeutic rehabilitation 
+                                    which fits closely with the <span id="black">TMG rehabilitation</span>. With his extensive knowledge 
+                                    in rehabilitation and sports specific training, he was selected to direct the 2003 Olympic Trials medical team.
+
+                                </p>
+    
+                            
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+
+    </div>
+    <!--End-Experts-->
+    <div  class="container">
+        <br>
+        <p class="Practitioner">What <span id=zero>services</span> we offer</p>
+    </div>
+
+    <!--Services-->
+    <section class="services d-m-flex">
+        <div class="container" id=round>
+            <!--Flex collumns-->
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-light">
+
+                        <div class="card-body">
+                            <img src="img/orangeCheck.jpeg" height= 28 alt="error">
+                            TMG  Rehabilitation
+                            Price: 145$ a session
+                            
+
+                        </div>
+
+                        <a href="#bookingLink" class="btn btn-dark">Book <span id=zero>free</span> consulation.<span id=small>
+                            click here.
+                        </span></a>
+                    </div>
+                </div>
+
+                <div class="col-md" >
+                
+                    <div class="card bg-light">
+
+                        <div class="card-body">
+                            <img src="img/orangeCheck.jpeg" height= 28 alt="error">
+                                Custom knee brace
+                                Price: 175$
+                        </div>
+                        <a href="#bookingLink" class="btn btn-dark">Book <span id=zero>free</span> consulation.<span id=small>
+                            click here.
+                        </span></a>
+                    </div>
+                </div>
+
+            <!--SERVICE3-->
+
+                <div class="col-sm">
+                    
+                    <div class="card bg-light">
+
+                        <div class="card-body -md">
+                            <img src="img/orangeCheck.jpeg" height= 28 alt="error">
+                            Prevention medicine and wellness
+                        </div>
+                        <a href="#bookingLink" class="btn btn-dark">Book <span id=zero>free</span> consulation.<span id=small>
+                            click here.
+                        </span></a>
+                    </div>
+                </div>
+                
+            </div>  
+            <!--Treatment Methods & Modalities-->
+            <br>
+            <br>
+
+            <!--collumn2-->
+
+            <div class="row text-center">
+                <div class="col-bd">
+                    <div class="card bg-light">
+
+                        <div class="card-body">
+                            <img src="img/orangeCheck.jpeg" height= 28 alt="error">
+                            Treatment Methods & Modalities
+                            Price: 155$ a session
+                            
+
+                        </div>
+
+                        <a href="#bookingLink" class="btn btn-dark">Book <span id=zero>free</span> consulation.<span id=small>
+                            click here.
+                        </span></a>
+                    </div>
+                </div>
+
+                <div class="col-md" >
+                
+                    <div class="card bg-light">
+
+                        <div class="card-body">
+                            <img src="img/orangeCheck.jpeg" height= 28 alt="error">
+                                Compression stocks
+                                Price: 175$
+                        </div>
+                        <a href="#bookingLink" class="btn btn-dark">Book <span id=zero>free</span> consulation.<span id=small>
+                            click here.
+                        </span></a>
+                    </div>
+                </div>
+
+                
+            </div>  
+            <!--End of collumn 2-->
+        </div>
+    </section>
+
+    <!--END-Services-->
+
+    <div  class="container">
+        <br>
+        <p class="Practitioner">Book <span id=orange>Appoinment</span> now</p>
+    </div>
+    <!--Book free consultation-->
+    <br>
+    <div class="container book-now d-sm-flex" id="bookingLink">
+        <form class=""row action="post" id="booking" name="form">
+            <div class="col-name">
+                <label for="form">
+                    Name :
+                </label>
+                <input type="text" id="form-name" name="form" value>
+
+                <br>
+                <br>
+            </div>
+
+            <!--User PHONE-NUMBER-->
+            <div class="col col-phone" id="form-numberT">
+                <label for="form">
+                    Phone:
+                </label>
+                <input type="text" id="form-number" name="form" value placeholder="xxx-xxx-xxx">
+                <br>
+                <br>
+            </div>
+
+            <!--Email-address-->
+
+            <div class="col-email">
+                <label for="form">
+                    Email &nbsp:
+                </label>
+                <input type="email" id="form-email" name="form" value>
+                <br>
+                <br>
+            </div>
+
+
+            <div class="col-date">
+                <label for="form">
+                    Appoinment Date
+                </label>
+                <input type="text" id="form-date" name="form" value placeholder="DD/MM/YYYY">
+                <br>
+                <br>
+            </div>
+            <div class="service-selection" id="service-selection" on>
+                <label for="form">
+                    Please choose a service:
+                </label>
+                <select id="serviceSelected">
+                    <option value="TMG_Rehabilitation">TMG  Rehabilitation</option>
+                    <option value="custom" onchange="serviceChoice(this.value)">Custom knee brace</option>
+                    <option value="Prevention" onchange="serviceChoice(this.value)">Prevention medicine and wellness</option>
+                    <option value="Modalities"onchange="serviceChoice(this.value)" >Treatment Methods & Modalities</option>
+                    <option value="Compression" onchange="serviceChoice(this.value)">Compression stocks</option>
+                </select>
+            </div>
+
+            <div class="final text-center">
+                <br>
+                <br>
+                <button class="submit"  type="button" onclick="bookingComplete()">Confirm Booking</button>
+
+            </div>
+        </form>
+
+
+    </div>
+</body>
+</html>
+
+<!--TMG  Rehabilitation, prevention medice and wellness, custom knee brace, Performance And Rehabiilitation Classes-->
+
+<!-- Education
+Certifications
+Special Interests-->
+
+
+<!--.a href=#goeswhere class="btn btn-dark" //Free consulation/session-->

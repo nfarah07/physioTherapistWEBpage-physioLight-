@@ -1,0 +1,135 @@
+
+
+.img-Lights{
+    background-image: url(img/greyLights.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.bg-blue{
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:450px;
+    background-image: linear-gradient(rgba(238, 199, 125, 0.849),rgba(255, 166, 0, 0.795)), url(img/runners.jpeg);;
+    
+   
+
+}
+#about{
+    margin: 70px;
+    
+}
+text-{
+    color: #7abbf0;
+
+}
+
+#zero{
+    color: #7abbf0;
+
+}
+
+g{
+    font-size: 18px;
+    color: white;
+}
+
+/*image wrapper*/
+
+sp1-image-wrapper {
+    width: 100%;
+    height: 220px;
+    position: relative;
+    object-fit: cover;
+    display: flex;
+}
+
+.Practitioner{
+    font-family:Proxima Nova Bold;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+
+
+.about{
+    font-family:Proxima Nova Bold;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    line-height: 2.5rem;
+
+}
+/* #ffb356;*/
+sp2-image-wrapper {
+    width: 50%;
+    height: 10px;
+    position: relative;
+    object-fit: cover;
+    display: flex;
+}
+
+#sep{
+    width: 30%;
+    height: 10px;
+    position: relative;
+    object-fit: cover;
+    display: flex;
+}
+#round{
+    border-radius: 25px;
+    border: 2px solid #7abbf0;
+    padding: 20px;
+    line-height: 0;
+}
+
+#small{
+    font-size: 12px;
+    color: rgba(255, 166, 0, 0.884);
+}
+.white-container{
+    max-width: 90vw;
+}
+
+.white-container{
+    box-shadow: 0 9px 18px rgb(24 33 77 / 20%);
+    border-radius: 16px;
+    padding: 1rem 0;
+    display: inline-block;
+    color: #3e4462;
+}
+
+.book-now{
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:450px;
+    background-image: url(img/Services.jpeg)
+
+}
+
+.final{
+    border-radius: 3px;
+}
+
+.final :hover{
+    background-color: lightcoral;
+}
+
+#black{
+    color: black;
+
+}
+
+#orange{
+    color: rgba(255, 166, 0, 0.884);
+}
